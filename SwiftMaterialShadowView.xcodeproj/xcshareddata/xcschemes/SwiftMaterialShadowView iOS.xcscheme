@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "44403C711D6455FE0057B827"
+               BlueprintIdentifier = "44FFCA2C1D65AD4E006B3AB2"
                BuildableName = "SwiftMaterialShadowView.framework"
                BlueprintName = "SwiftMaterialShadowView"
                ReferencedContainer = "container:SwiftMaterialShadowView.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "44403C711D6455FE0057B827"
+            BlueprintIdentifier = "44FFCA2C1D65AD4E006B3AB2"
             BuildableName = "SwiftMaterialShadowView.framework"
             BlueprintName = "SwiftMaterialShadowView"
             ReferencedContainer = "container:SwiftMaterialShadowView.xcodeproj">
@@ -63,7 +63,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "44403C711D6455FE0057B827"
+            BlueprintIdentifier = "44FFCA2C1D65AD4E006B3AB2"
             BuildableName = "SwiftMaterialShadowView.framework"
             BlueprintName = "SwiftMaterialShadowView"
             ReferencedContainer = "container:SwiftMaterialShadowView.xcodeproj">

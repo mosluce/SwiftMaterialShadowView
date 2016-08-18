@@ -11,10 +11,11 @@ import UIKit
 @IBDesignable
 public class ShadowView: UIView {
     
-    @IBInspectable public var shadowColor: UIColor! = UIColor.blackColor()
-    @IBInspectable public var shadowOffset: CGSize! = CGSizeMake(0, 1)
-    @IBInspectable public var shadowRadius: CGFloat! = 1.5
-    @IBInspectable public var shadowOpacity: Float! = 0.12
+    public var shadowColor: UIColor! = UIColor.blackColor()
+    public var shadowOffset: CGSize! = CGSizeMake(0.0, 1.0)
+    public var shadowOffsetY: NSNumber! = 1.0
+    public var shadowRadius: NSNumber! = 1.5
+    public var shadowOpacity: NSNumber! = 0.12
     
     // Only override drawRect: if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
@@ -23,8 +24,8 @@ public class ShadowView: UIView {
         
         self.layer.shadowPath = UIBezierPath(roundedRect: rect, cornerRadius: self.layer.cornerRadius).CGPath
         
-        self.layer.shadowOpacity = shadowOpacity
-        self.layer.shadowRadius = shadowRadius
+        self.layer.shadowOpacity = shadowOpacity.floatValue
+        self.layer.shadowRadius = CGFloat(shadowRadius.floatValue)
         self.layer.shadowColor = shadowColor.CGColor
         self.layer.shadowOffset = shadowOffset
     }

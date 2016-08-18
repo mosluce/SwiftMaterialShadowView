@@ -12,7 +12,7 @@ import SnapKit
 @IBDesignable
 public class MaterialShadowView: UIView {
     
-    @IBInspectable public var depth: UInt = 1 {
+    public var depth: UInt = 1 {
         didSet {
             self.reDrawShadows()
         }
@@ -27,7 +27,7 @@ public class MaterialShadowView: UIView {
         self.setup()
     }
     
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         
         self.setup()
@@ -56,7 +56,7 @@ public class MaterialShadowView: UIView {
         self.reDrawShadows()
     }
     
-    func reDrawShadows() {
+    public func reDrawShadows() {
         if self.depth > 5 {
             self.depth = 5
         }

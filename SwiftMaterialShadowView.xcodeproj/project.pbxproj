@@ -7,84 +7,124 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		44403C761D6455FE0057B827 /* SwiftMaterialShadowView.h in Headers */ = {isa = PBXBuildFile; fileRef = 44403C751D6455FE0057B827 /* SwiftMaterialShadowView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44403C7F1D6456AF0057B827 /* MaterialShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44403C7D1D6456AF0057B827 /* MaterialShadowView.swift */; };
-		44403C801D6456AF0057B827 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44403C7E1D6456AF0057B827 /* ShadowView.swift */; };
-		44403C821D6456FB0057B827 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44403C811D6456FB0057B827 /* SnapKit.framework */; };
+		44FFCA311D65AD4E006B3AB2 /* SwiftMaterialShadowView.h in Headers */ = {isa = PBXBuildFile; fileRef = 44FFCA301D65AD4E006B3AB2 /* SwiftMaterialShadowView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44FFCA3A1D65AD5A006B3AB2 /* MaterialShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FFCA381D65AD5A006B3AB2 /* MaterialShadowView.swift */; };
+		44FFCA3B1D65AD5A006B3AB2 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FFCA391D65AD5A006B3AB2 /* ShadowView.swift */; };
+		44FFCA431D65ADA2006B3AB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FFCA421D65ADA2006B3AB2 /* AppDelegate.swift */; };
+		44FFCA451D65ADA2006B3AB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FFCA441D65ADA2006B3AB2 /* ViewController.swift */; };
+		44FFCA481D65ADA2006B3AB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44FFCA461D65ADA2006B3AB2 /* Main.storyboard */; };
+		44FFCA4A1D65ADA2006B3AB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44FFCA491D65ADA2006B3AB2 /* Assets.xcassets */; };
+		44FFCA4D1D65ADA2006B3AB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44FFCA4B1D65ADA2006B3AB2 /* LaunchScreen.storyboard */; };
+		44FFCA531D65AE62006B3AB2 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44FFCA521D65AE62006B3AB2 /* SnapKit.framework */; };
+		44FFCA551D65AF69006B3AB2 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FFCA391D65AD5A006B3AB2 /* ShadowView.swift */; };
+		44FFCA561D65AF6B006B3AB2 /* MaterialShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FFCA381D65AD5A006B3AB2 /* MaterialShadowView.swift */; };
+		44FFCA571D65AF9B006B3AB2 /* SwiftMaterialShadowView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44FFCA2D1D65AD4E006B3AB2 /* SwiftMaterialShadowView.framework */; };
+		44FFCA591D65B008006B3AB2 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44FFCA521D65AE62006B3AB2 /* SnapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		44403C721D6455FE0057B827 /* SwiftMaterialShadowView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftMaterialShadowView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		44403C751D6455FE0057B827 /* SwiftMaterialShadowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftMaterialShadowView.h; sourceTree = "<group>"; };
-		44403C771D6455FE0057B827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		44403C7D1D6456AF0057B827 /* MaterialShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialShadowView.swift; sourceTree = "<group>"; };
-		44403C7E1D6456AF0057B827 /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
-		44403C811D6456FB0057B827 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		44FFCA2D1D65AD4E006B3AB2 /* SwiftMaterialShadowView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftMaterialShadowView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44FFCA301D65AD4E006B3AB2 /* SwiftMaterialShadowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftMaterialShadowView.h; sourceTree = "<group>"; };
+		44FFCA321D65AD4E006B3AB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44FFCA381D65AD5A006B3AB2 /* MaterialShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialShadowView.swift; sourceTree = "<group>"; };
+		44FFCA391D65AD5A006B3AB2 /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		44FFCA401D65ADA2006B3AB2 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44FFCA421D65ADA2006B3AB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44FFCA441D65ADA2006B3AB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44FFCA471D65ADA2006B3AB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44FFCA491D65ADA2006B3AB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44FFCA4C1D65ADA2006B3AB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44FFCA4E1D65ADA2006B3AB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44FFCA521D65AE62006B3AB2 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		44403C6E1D6455FE0057B827 /* Frameworks */ = {
+		44FFCA291D65AD4E006B3AB2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44403C821D6456FB0057B827 /* SnapKit.framework in Frameworks */,
+				44FFCA531D65AE62006B3AB2 /* SnapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44FFCA3D1D65ADA2006B3AB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44FFCA571D65AF9B006B3AB2 /* SwiftMaterialShadowView.framework in Frameworks */,
+				44FFCA591D65B008006B3AB2 /* SnapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		44403C681D6455FD0057B827 = {
+		44FFCA231D65AD4E006B3AB2 = {
 			isa = PBXGroup;
 			children = (
-				44403C811D6456FB0057B827 /* SnapKit.framework */,
-				44403C741D6455FE0057B827 /* SwiftMaterialShadowView */,
-				44403C731D6455FE0057B827 /* Products */,
+				44FFCA521D65AE62006B3AB2 /* SnapKit.framework */,
+				44FFCA2F1D65AD4E006B3AB2 /* SwiftMaterialShadowView */,
+				44FFCA411D65ADA2006B3AB2 /* Example */,
+				44FFCA2E1D65AD4E006B3AB2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		44403C731D6455FE0057B827 /* Products */ = {
+		44FFCA2E1D65AD4E006B3AB2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				44403C721D6455FE0057B827 /* SwiftMaterialShadowView.framework */,
+				44FFCA2D1D65AD4E006B3AB2 /* SwiftMaterialShadowView.framework */,
+				44FFCA401D65ADA2006B3AB2 /* Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		44403C741D6455FE0057B827 /* SwiftMaterialShadowView */ = {
+		44FFCA2F1D65AD4E006B3AB2 /* SwiftMaterialShadowView */ = {
 			isa = PBXGroup;
 			children = (
-				44403C751D6455FE0057B827 /* SwiftMaterialShadowView.h */,
-				44403C7D1D6456AF0057B827 /* MaterialShadowView.swift */,
-				44403C7E1D6456AF0057B827 /* ShadowView.swift */,
-				44403C771D6455FE0057B827 /* Info.plist */,
+				44FFCA301D65AD4E006B3AB2 /* SwiftMaterialShadowView.h */,
+				44FFCA381D65AD5A006B3AB2 /* MaterialShadowView.swift */,
+				44FFCA391D65AD5A006B3AB2 /* ShadowView.swift */,
+				44FFCA321D65AD4E006B3AB2 /* Info.plist */,
 			);
 			path = SwiftMaterialShadowView;
+			sourceTree = "<group>";
+		};
+		44FFCA411D65ADA2006B3AB2 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				44FFCA421D65ADA2006B3AB2 /* AppDelegate.swift */,
+				44FFCA441D65ADA2006B3AB2 /* ViewController.swift */,
+				44FFCA461D65ADA2006B3AB2 /* Main.storyboard */,
+				44FFCA4B1D65ADA2006B3AB2 /* LaunchScreen.storyboard */,
+				44FFCA491D65ADA2006B3AB2 /* Assets.xcassets */,
+				44FFCA4E1D65ADA2006B3AB2 /* Info.plist */,
+			);
+			path = Example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		44403C6F1D6455FE0057B827 /* Headers */ = {
+		44FFCA2A1D65AD4E006B3AB2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44403C761D6455FE0057B827 /* SwiftMaterialShadowView.h in Headers */,
+				44FFCA311D65AD4E006B3AB2 /* SwiftMaterialShadowView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		44403C711D6455FE0057B827 /* SwiftMaterialShadowView */ = {
+		44FFCA2C1D65AD4E006B3AB2 /* SwiftMaterialShadowView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 44403C7A1D6455FE0057B827 /* Build configuration list for PBXNativeTarget "SwiftMaterialShadowView" */;
+			buildConfigurationList = 44FFCA351D65AD4E006B3AB2 /* Build configuration list for PBXNativeTarget "SwiftMaterialShadowView" */;
 			buildPhases = (
-				44403C6D1D6455FE0057B827 /* Sources */,
-				44403C6E1D6455FE0057B827 /* Frameworks */,
-				44403C6F1D6455FE0057B827 /* Headers */,
-				44403C701D6455FE0057B827 /* Resources */,
-				44403C831D6457030057B827 /* ShellScript */,
+				44FFCA281D65AD4E006B3AB2 /* Sources */,
+				44FFCA291D65AD4E006B3AB2 /* Frameworks */,
+				44FFCA2A1D65AD4E006B3AB2 /* Headers */,
+				44FFCA2B1D65AD4E006B3AB2 /* Resources */,
+				44FFCA581D65AFBA006B3AB2 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -92,52 +132,100 @@
 			);
 			name = SwiftMaterialShadowView;
 			productName = SwiftMaterialShadowView;
-			productReference = 44403C721D6455FE0057B827 /* SwiftMaterialShadowView.framework */;
+			productReference = 44FFCA2D1D65AD4E006B3AB2 /* SwiftMaterialShadowView.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		44FFCA3F1D65ADA2006B3AB2 /* Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44FFCA4F1D65ADA2006B3AB2 /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				44FFCA3C1D65ADA2006B3AB2 /* Sources */,
+				44FFCA3D1D65ADA2006B3AB2 /* Frameworks */,
+				44FFCA3E1D65ADA2006B3AB2 /* Resources */,
+				44FFCA5A1D65B048006B3AB2 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Example;
+			productName = Example;
+			productReference = 44FFCA401D65ADA2006B3AB2 /* Example.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		44403C691D6455FD0057B827 /* Project object */ = {
+		44FFCA241D65AD4E006B3AB2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "默司";
 				TargetAttributes = {
-					44403C711D6455FE0057B827 = {
+					44FFCA2C1D65AD4E006B3AB2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					44FFCA3F1D65ADA2006B3AB2 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 44403C6C1D6455FD0057B827 /* Build configuration list for PBXProject "SwiftMaterialShadowView" */;
+			buildConfigurationList = 44FFCA271D65AD4E006B3AB2 /* Build configuration list for PBXProject "SwiftMaterialShadowView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 44403C681D6455FD0057B827;
-			productRefGroup = 44403C731D6455FE0057B827 /* Products */;
+			mainGroup = 44FFCA231D65AD4E006B3AB2;
+			productRefGroup = 44FFCA2E1D65AD4E006B3AB2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				44403C711D6455FE0057B827 /* SwiftMaterialShadowView */,
+				44FFCA2C1D65AD4E006B3AB2 /* SwiftMaterialShadowView */,
+				44FFCA3F1D65ADA2006B3AB2 /* Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		44403C701D6455FE0057B827 /* Resources */ = {
+		44FFCA2B1D65AD4E006B3AB2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		44FFCA3E1D65ADA2006B3AB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44FFCA4D1D65ADA2006B3AB2 /* LaunchScreen.storyboard in Resources */,
+				44FFCA4A1D65ADA2006B3AB2 /* Assets.xcassets in Resources */,
+				44FFCA481D65ADA2006B3AB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		44403C831D6457030057B827 /* ShellScript */ = {
+		44FFCA581D65AFBA006B3AB2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		44FFCA5A1D65B048006B3AB2 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -154,19 +242,49 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		44403C6D1D6455FE0057B827 /* Sources */ = {
+		44FFCA281D65AD4E006B3AB2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44403C801D6456AF0057B827 /* ShadowView.swift in Sources */,
-				44403C7F1D6456AF0057B827 /* MaterialShadowView.swift in Sources */,
+				44FFCA3B1D65AD5A006B3AB2 /* ShadowView.swift in Sources */,
+				44FFCA3A1D65AD5A006B3AB2 /* MaterialShadowView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44FFCA3C1D65ADA2006B3AB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44FFCA551D65AF69006B3AB2 /* ShadowView.swift in Sources */,
+				44FFCA451D65ADA2006B3AB2 /* ViewController.swift in Sources */,
+				44FFCA431D65ADA2006B3AB2 /* AppDelegate.swift in Sources */,
+				44FFCA561D65AF6B006B3AB2 /* MaterialShadowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		44FFCA461D65ADA2006B3AB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44FFCA471D65ADA2006B3AB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44FFCA4B1D65ADA2006B3AB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44FFCA4C1D65ADA2006B3AB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		44403C781D6455FE0057B827 /* Debug */ = {
+		44FFCA331D65AD4E006B3AB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -215,7 +333,7 @@
 			};
 			name = Debug;
 		};
-		44403C791D6455FE0057B827 /* Release */ = {
+		44FFCA341D65AD4E006B3AB2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -257,7 +375,7 @@
 			};
 			name = Release;
 		};
-		44403C7B1D6455FE0057B827 /* Debug */ = {
+		44FFCA361D65AD4E006B3AB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -271,7 +389,6 @@
 				);
 				INFOPLIST_FILE = SwiftMaterialShadowView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tw.ccmos.SwiftMaterialShadowView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -280,7 +397,7 @@
 			};
 			name = Debug;
 		};
-		44403C7C1D6455FE0057B827 /* Release */ = {
+		44FFCA371D65AD4E006B3AB2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
@@ -294,7 +411,6 @@
 				);
 				INFOPLIST_FILE = SwiftMaterialShadowView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tw.ccmos.SwiftMaterialShadowView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,27 +418,65 @@
 			};
 			name = Release;
 		};
+		44FFCA501D65ADA2006B3AB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.ccmos.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		44FFCA511D65ADA2006B3AB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Example/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.ccmos.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		44403C6C1D6455FD0057B827 /* Build configuration list for PBXProject "SwiftMaterialShadowView" */ = {
+		44FFCA271D65AD4E006B3AB2 /* Build configuration list for PBXProject "SwiftMaterialShadowView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				44403C781D6455FE0057B827 /* Debug */,
-				44403C791D6455FE0057B827 /* Release */,
+				44FFCA331D65AD4E006B3AB2 /* Debug */,
+				44FFCA341D65AD4E006B3AB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		44403C7A1D6455FE0057B827 /* Build configuration list for PBXNativeTarget "SwiftMaterialShadowView" */ = {
+		44FFCA351D65AD4E006B3AB2 /* Build configuration list for PBXNativeTarget "SwiftMaterialShadowView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				44403C7B1D6455FE0057B827 /* Debug */,
-				44403C7C1D6455FE0057B827 /* Release */,
+				44FFCA361D65AD4E006B3AB2 /* Debug */,
+				44FFCA371D65AD4E006B3AB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		44FFCA4F1D65ADA2006B3AB2 /* Build configuration list for PBXNativeTarget "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44FFCA501D65ADA2006B3AB2 /* Debug */,
+				44FFCA511D65ADA2006B3AB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 44403C691D6455FD0057B827 /* Project object */;
+	rootObject = 44FFCA241D65AD4E006B3AB2 /* Project object */;
 }
