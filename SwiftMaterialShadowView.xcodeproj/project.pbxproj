@@ -16,8 +16,6 @@
 		44FFCA4A1D65ADA2006B3AB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44FFCA491D65ADA2006B3AB2 /* Assets.xcassets */; };
 		44FFCA4D1D65ADA2006B3AB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44FFCA4B1D65ADA2006B3AB2 /* LaunchScreen.storyboard */; };
 		44FFCA531D65AE62006B3AB2 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44FFCA521D65AE62006B3AB2 /* SnapKit.framework */; };
-		44FFCA551D65AF69006B3AB2 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FFCA391D65AD5A006B3AB2 /* ShadowView.swift */; };
-		44FFCA561D65AF6B006B3AB2 /* MaterialShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FFCA381D65AD5A006B3AB2 /* MaterialShadowView.swift */; };
 		44FFCA571D65AF9B006B3AB2 /* SwiftMaterialShadowView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44FFCA2D1D65AD4E006B3AB2 /* SwiftMaterialShadowView.framework */; };
 		44FFCA591D65B008006B3AB2 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44FFCA521D65AE62006B3AB2 /* SnapKit.framework */; };
 /* End PBXBuildFile section */
@@ -255,10 +253,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44FFCA551D65AF69006B3AB2 /* ShadowView.swift in Sources */,
 				44FFCA451D65ADA2006B3AB2 /* ViewController.swift in Sources */,
 				44FFCA431D65ADA2006B3AB2 /* AppDelegate.swift in Sources */,
-				44FFCA561D65AF6B006B3AB2 /* MaterialShadowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +385,7 @@
 				);
 				INFOPLIST_FILE = SwiftMaterialShadowView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tw.ccmos.SwiftMaterialShadowView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,6 +408,7 @@
 				);
 				INFOPLIST_FILE = SwiftMaterialShadowView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tw.ccmos.SwiftMaterialShadowView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +425,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tw.ccmos.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -442,6 +441,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tw.ccmos.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -467,6 +467,7 @@
 				44FFCA371D65AD4E006B3AB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44FFCA4F1D65ADA2006B3AB2 /* Build configuration list for PBXNativeTarget "Example" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +476,7 @@
 				44FFCA511D65ADA2006B3AB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
